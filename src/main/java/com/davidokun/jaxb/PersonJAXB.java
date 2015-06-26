@@ -9,16 +9,16 @@ import javax.xml.bind.annotation.XmlRootElement;
  */
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
-public class Person {
+public class PersonJAXB {
 
     private String firstName;
     private String lastName;
     private Integer age;
 
-    public Person() {
+    public PersonJAXB() {
     }
 
-    public Person(String firstName, String lastName, Integer age) {
+    public PersonJAXB(String firstName, String lastName, Integer age) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;

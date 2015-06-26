@@ -1,3 +1,7 @@
 JAXB-Example.iml
 person.xml
 target/
+.idea/
+jaxb-examples.iml
+person_encoder.xml
+person_jaxb.xml
